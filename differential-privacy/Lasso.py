@@ -212,7 +212,7 @@ if __name__ == '__main__':
         param_grid = {
             'epochs': [50, 100],
             'batch_size': [8, 16],
-            'microbatches': [0.5, 1],
+            'microbatches_perc': [0.5, 1],
             'learning_rate': [0.01, 0.001],
             'kernel_regularization': [0, 0.001352],
             'noise_multiplier': [0.4, 0.6, 0.8, 1.0, 1.2],
