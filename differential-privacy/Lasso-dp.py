@@ -197,9 +197,9 @@ def main():
 
 if __name__ == '__main__':
     # genotype
-    genotype_file = 'data/genotype_full.txt'
+    genotype_file = '../data/genotype_full.txt'
     # phenotype
-    phenotype_file = 'data/phenotype.csv'
+    phenotype_file = '../data/phenotype.csv'
 
     # save results
     filename = "Lasso_grid_result_dp.pkl"
