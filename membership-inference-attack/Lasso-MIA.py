@@ -150,7 +150,7 @@ def target_model():
 
 
 def shadow_model():
-    """The architecture of the shadow model, same as target model, because the attack is white-box,
+    """The architecture of the shadow model is same as target model, because the attack is white-box,
     hence the attacker is assumed to know this architecture too.
 
     :return: shadow model
