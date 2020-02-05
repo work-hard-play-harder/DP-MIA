@@ -35,7 +35,7 @@ virtualenv >= 16.4.3
 ### Setup
 1. Create virtual environment
 ```
-git clone https://github.com/work-hard-play-harder/DP-MIA.git
+git clone https://github.com/shilab/DP-MIA.git
 cd DP-MIA/
 mkdir venv
 python3 -m venv venv/
