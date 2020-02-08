@@ -35,7 +35,7 @@ virtualenv >= 16.4.3
 ### Setup
 1. Create virtual environment
 ```
-git clone https://github.com/work-hard-play-harder/DP-MIA.git
+git clone https://github.com/shilab/DP-MIA.git
 cd DP-MIA/
 mkdir venv
 python3 -m venv venv/
@@ -47,4 +47,4 @@ pip install tensorflow==1.14 tensorflow_privacy sklearn pandas jupyter mia
 ```
 
 ## Citation
-Junjie Chen, Hui Wang, Xinghua Shi, Differential Privacy Protection against Membership Inference Attack on Genomic Data,  *Intelligent Systems for Molecular Biology (ISMB)*, July  12-16 2020, Palais des congrès de Montréal, Canada. (submit)
+Junjie Chen, Hui Wang, Xinghua Shi, Differential Privacy Protection against Membership Inference Attack on Genomic Data, in submission.
