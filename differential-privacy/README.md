@@ -44,10 +44,10 @@ Besides above hyperparameters, following hyperparameters also can affect the fin
 
 Generally speaking, small noise has little effect and large noise has significant effect on the model performance. In order to evaluate the impact of DP on utility of machine learning models, we quantitatively investigate the effectiveness of DP budgets by incorporating DP to Lasso and CNN and conducting grid search of different privacy budget levels on the target dataset.   
 
-Fig. 1 shows the target accuracy of target models under different privacy budget ε levels. Larger privacy budget slightly reduces model performance, while smaller privacy budget (ε ≤ 10) sharply reduces the performance.  
+Fig. 1 shows the target accuracy of target models under different privacy budget ε levels. A large privacy budget slightly reduces the model performance, however, it can’t provide strong privacy guarantee. Smaller privacy budget (ε ≤ 10) provides stronger privacy guarantee, but it sharply reduces the model performance. It is thus essential to find a trade-off between model utility and privacy. As shown by our results, the privacy budget in the range of (5,10) best addresses the trade-off between model accuracy and privacy.
 
 <div align="center">
-<img src="target-model-dp.png" width="700" />
+<img src="effect-dp.png" width="700" />
 <p> Figure 1. Performance of target models under different privacy budget levels. The horizontal line represents the performance of target model without DP. The target accuracy is measured by the mean accuracy of 5-fold cross validation. The curves are fitted regression lines, and the corresponding shadow areas are 95% confidence intervals for corresponding regressions.</p>
 </div>
 
