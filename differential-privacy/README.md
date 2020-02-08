@@ -42,11 +42,12 @@ Besides above hyperparameters, following hyperparameters also can affect the fin
 
 ## Effectiveness of privacy budget on target accuracy
 
-Generally speaking, small noise has little effect and large noise has significant effect on the model performance. In order to evaluate the impact of DP on utility of machine learning models, we quantitatively investigate the effectiveness of DP budgets by incorporating DP to Lasso and CNN and conducting grid search of different privacy budget levels on the target dataset. 
+Generally speaking, small noise has little effect and large noise has significant effect on the model performance. In order to evaluate the impact of DP on utility of machine learning models, we quantitatively investigate the effectiveness of DP budgets by incorporating DP to Lasso and CNN and conducting grid search of different privacy budget levels on the target dataset.   
+
+Fig. 1 shows the target accuracy of target models under different privacy budget ε levels. Larger privacy budget slightly reduces model performance, while smaller privacy budget (ε ≤ 10) sharply reduces the performance.  
 
 <div align="center">
 <img src="target-model-dp.png" width="700" />
-<p align="justice"> Figure 1. Performance of target models under different privacy budget levels. The horizontal line represents the performance of target model without DP. The target accuracy is measured by the mean accuracy of 5-fold cross validation. The curves are fitted regression lines, and the corresponding shadow areas are 95% confidence intervals for corresponding regressions.</p>
+<p> Figure 1. Performance of target models under different privacy budget levels. The horizontal line represents the performance of target model without DP. The target accuracy is measured by the mean accuracy of 5-fold cross validation. The curves are fitted regression lines, and the corresponding shadow areas are 95% confidence intervals for corresponding regressions.</p>
 </div>
 
-Fig. 1 shows the target accuracy of target models under different privacy budget ε levels. Larger privacy budget slightly reduces model performance, while smaller privacy budget (ε ≤ 10) sharply reduces the performance.  

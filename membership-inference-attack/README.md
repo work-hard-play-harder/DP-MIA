@@ -5,8 +5,8 @@ We use an [open-source library of MIA](https://github.com/spring-epfl/mia) to co
 private machine learning models and performing MIA correspondingly. We randomly split the public shadow dataset into 80% for training the model and 20% for unused to generate the ground truth of the attack model. Each MIA attack is randomly repeated 5 times.
 
 <div align="center">
-<img src="overview-of-mia.png" width="700" />
-Figure 1. An illustration of membership inference attack.
+<img src="overview-of-mia.png" width="700" />  
+<p>Figure 1. An illustration of membership inference attack.</p>
 </div>
 
 ## Target model with DP
