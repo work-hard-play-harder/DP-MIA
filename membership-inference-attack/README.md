@@ -4,8 +4,10 @@ The goal of MIA is to infer whether a given data record is in the target dataset
 We use an [open-source library of MIA](https://github.com/spring-epfl/mia) to conduct MIA attack on the Lasso and CNN models running on yeast genomic data. The worst case of MIA is that the private training dataset for the target model is disjoint from the public dataset used to train the shadow model. The attack will perform better if the training datasets happen to overlap for the target and shadow models. We consider the worst case of MIA, and split the whole dataset into two disjoint subsets, one as the private target dataset and the other one as the public shadow dataset for training differentially
 private machine learning models and performing MIA correspondingly. We randomly split the public shadow dataset into 80% for training the model and 20% for unused to generate the ground truth of the attack model. Each MIA attack is randomly repeated 5 times.
 
+<div align="center">
 <img src="overview-of-mia.png" width="700" />
 Figure 1. An illustration of membership inference attack.
+</div>
 
 ## Target model with DP
 To investigate whether DP is empirically effective against MIA on genomic data analysis, we constructe MIA on the best target models evaluated in differential privacy part for various DP budget levels. 
