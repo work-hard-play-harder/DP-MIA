@@ -47,4 +47,4 @@ pip install tensorflow==1.14 tensorflow_privacy sklearn pandas jupyter mia
 ```
 
 ## Citation
-Junjie Chen, Hui Wang, Xinghua Shi, Differential Privacy Protection against Membership Inference Attack on Genomic Data,  *Intelligent Systems for Molecular Biology (ISMB)*, July  12-16 2020, Palais des congrès de Montréal, Canada. (submit)
+Junjie Chen, Hui Wang, Xinghua Shi, Differential Privacy Protection against Membership Inference Attack on Genomic Data, in submission.
